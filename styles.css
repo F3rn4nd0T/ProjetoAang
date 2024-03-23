@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +14,38 @@
     align-items: center;
 }
 .nav{
-    w
+    width: 60%;
 }
-
+ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro' , sans-serif;
+}
+li:hover{
+    color: aqua;
+}
+#logo{
+    width: 150px;
+    height: auto;
+}
+#banner{
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/41cfbafd-d1d7-11ee-aa78-d602bea5d5c0/avatar-a-lenda-de-aang-netflix.jpg');
+    background-position: 50%, 50%;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+#trailer-apresentacao{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
